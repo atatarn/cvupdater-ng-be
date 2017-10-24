@@ -1,0 +1,31 @@
+{
+  "name": "hhru-cvupdater-be",
+  "version": "1.0.0",
+  "description": "Backend for cvupdater-ng",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Andrey Tatarnikov (insane@mozgam.net)",
+  "license": "ISC",
+  "_moduleAliases": {
+    "@lib": "lib",
+    "@models": "lib/models",
+    "@natures": "lib/natures"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "module-alias": "^2.0.1",
+    "mongoose": "^4.12.3",
+    "node-schedule": "^1.2.5",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "winston": "^3.0.0-rc0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "request-debug": "^0.2.0"
+  }
+}
